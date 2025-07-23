@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>pagina web</title>
+          <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel=stylesheet type="text/css" href="estile.css">
+  
+</head>
+
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://images.pexels.com/photos/16339049/pexels-photo-16339049/free-photo-of-elegant-man-and-woman-in-front-of-a-prada-store.jpeg?auto=compress&cs=tinysrgb&w=600/120x50" class="h-12">
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.php" class="text-gray-700 hover:text-black font-medium">Inicio</a>
+                <a href="pagina1.html" class="Mujeres">Mujer</a>
+                <a href="pagina2.html" class="Hombres">Hombre</a>
+            </nav>
+            
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <button id="cart-btn" class="text-gray-700 hover:text-black">
+                        <i class="fas fa-shopping-bag text-xl"></i>
+                        <span id="cart-count" class="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center cart-notification hidden">0</span>
+                    </button>
+                </div>
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <h2><br><center><p>APARTADO DE HOMBRE OTOÑO INVIERNO</p></center></br></h2>
+<center><h4> Todo lo que necesitas, tu comodidad y tu estilo es lo unico que nos importa tenemos un apartadio de roipa que te podria gustar de acuerdo a tu gusto</h4></center>
+
+    </header>
+<head>
+        <!-- Collections Section -->
+    <style>
+        /* Image Gallery Styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+    </style>
+    <!-- Image Gallery Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto">
+            <center><h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">COLECCIÓN </h2></center>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.oBK1fqHEXYs0DJCSPXPEWAHaJ3?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Vestido de primavera en tonos pastel">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.YKasJecTcxw5lQEe28ZYTQHaNK?w=586&h=1042&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pantalones urbanos estilo minimalista">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.tV2TsScAufgJDyclEZKJ0AHaJP?w=563&h=702&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Blusa elegante para ocasiones especiales">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.IZjHlQoNBp7gb7-TiCjDlgHaHa?w=800&h=800&rs=1&pid=ImgDetMain&o=7&rm3" alt="Abrigo de invierno en lana premium">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://th.bing.com/th/id/R.0372910eb3c6cf85730228fd5ba24b3a?rik=%2fVZVVhHzDlcCtg&pid=ImgRaw&r=0" alt="Zapatos de diseño exclusivo">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://tse1.explicit.bing.net/th/id/OIP.Ze2jS1Os46FfUGtGo7uuaAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Bolsos de alta gama">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://cdn.lookastic.com/looks/short-sleeve-shirt-crew-neck-t-shirt-shorts-large-103673.jpg" alt="Zapatos de diseño exclusivo">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.ChW4Sbk7xKR1SzmaU4GRCwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Zapatos de diseño exclusivo">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.5WFKC4BmOVJJdyUA8jXAvAHaNK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Zapatos de diseño exclusivo">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://th.bing.com/th/id/R.4a1bbac9ce1910ae98ef1682f2565020?rik=GBIosHI%2bDZuiMg&pid=ImgRaw&r=0" alt="Zapatos de diseño exclusivo">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP._UNYIxq9ctDmkDoxtFOngwHaHa?w=1003&h=1004&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Zapatos de diseño exclusivo">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.ptw25il0PITXmXUU1dUWWQHaJ4?w=500&h=667&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Zapatos de diseño exclusivo">
+                </div>
+            </div>
+        </div>
+    </section>
+    </head>
+
+</html>
